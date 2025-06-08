@@ -1,0 +1,66 @@
+:root {
+  --backgroundColorMain: rgb(203, 202, 202);
+  --backgroundColorNormal: rgb(158, 230, 232);
+  --fontColor: rgb(24, 24, 22);
+
+  background-color: var(--backgroundColorMain);
+  color: var(--fontColor);
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0.05vw 0.051vw 0.2vw white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.data-container {
+  margin-top: 2vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2vw;
+  gap: 2vw;
+  border: 3px solid gold;
+  background-color: var(--backgroundColorNormal);
+  border-radius: 1vw;
+}
+.data {
+  margin-top: 2vw;
+  padding: 2vw 8vw;
+  border: 3px solid gold;
+  background-color: var(--backgroundColorNormal);
+  border-radius: 1vw;
+}
+body {
+  padding: 2vw;
+}
+.title {
+  border: 3px solid gold;
+  background-color: var(--backgroundColorNormal);
+  border-radius: 1vw;
+  text-align: center;
+  padding: 1vw;
+}
+h1 {
+  font-size: 6vw;
+}
+p {
+  font-size: 2.5vw;
+}
+h2 {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+li {
+  font-size: 1.5vw;
+}
+.img-title {
+  grid-column: span 2;
+}
+img {
+  width: 100%;
+}
+iframe {
+  width: 33.33vw;
+  height: 18.75vw;
+  margin: auto;
+}
